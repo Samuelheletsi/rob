@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    position: absolute;
+    top: 250px; /* Adjust the top position as needed */
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    visibility:visible;
+   
+}
+.container2{
+    position: absolute;
+    top: 50px; /* Adjust the top position as needed */
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    visibility:visible;
+   
+}
+.container-dell {
+    position: absolute;
+    top: 250px; /* Adjust the top position as needed */
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    visibility: hidden;
+   
+}
+.delete-b,.edit-b{
+    background-color: gray;
+    border: 2px solid green;
+    width: 20px;
+    height: 20px;
+}
+.delete-b:hover {
+    background-color: green;
+}
+.edit-b:hover {
+    background-color: green;
+}
+.container-lonovo {
+    position: absolute;
+    top: 250px; /* Adjust the top position as needed */
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    visibility: hidden;
+   
+}
+.switch-pro{
+    display: flex;
+    height: 50px;
+    width: 70%;
+    /* align-items: center;
+    justify-content: center; */
+    float: right;
+    margin: 5%;
+}
+.switch-pro button{
+    width: 65px;
+    height: 30px;
+    background-color: #007bff;
+    border-radius: 7%;
+    margin: 3%;
+    padding: 2%;
+}
+.container1 {
+    max-width: 50%;
+    margin: 35px auto;
+    margin-left: 32px;
+    padding: 20px;
+    /* background-color: #f9f9f9; */
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #444;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+aside {
+    float: left;
+    width: 23%; /* Converted from 200px to % */
+    background-color: #f1f1f1;
+    padding: 10px;
+    padding-left: 0.2%;
+}
+
+
+main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.animation-box {
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    position: relative;
+}
+/* Styling for active link in the aside bar */
+#asideMenu a.active {
+    background-color: #007bff; /* Change background color */
+    color: #fff; /* Change text color */
+}
+
+/* Styling for submenu items */
+#asideMenu ul {
+    list-style-type: none;
+    padding-left: 20px; /* Indent submenu items */
+}
+
+#asideMenu ul li {
+    margin-bottom: 5px; /* Adjust spacing between submenu items */
+}
+
+#asideMenu ul li a {
+    color: #333; /* Default text color for submenu items */
+    text-decoration: none;
+}
+
+#asideMenu ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+#asideMenu ul li a.active {
+    color: #fff; /* Change text color of active submenu item */
+    font-weight: bold; /* Add bold font weight to active submenu item */
+}
+
+table {
+    width: 40%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+table tr:hover {
+    background-color: #f2f2f2;
+}
